@@ -1,5 +1,25 @@
 
+# Local Agentic RAG wit Ollama, streamlit
 
+I have a basic demo for using Llama 3.2 large language model using Retrieval Augument Generation, RAG to retrieve insights from documents embedded. I will be making use of Langgraph and Llama 3.1/3.2 LLM with  Streamlit in building this multi-agentic chatbot.
+
+# Prerequisites
+
+## LLM - using Ollama to fetch the models
+
+
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+# Download the Llama LLM using Ollama
+```
+ollama run llama3.2:3b # 3b parameters
+
+ollama run llama3.1 # 8B parameters
+
+ollama run llama3.1:70b # 70b
+```
 
 (base) ➜  local-rag pyenv shell 3.11.9
 
