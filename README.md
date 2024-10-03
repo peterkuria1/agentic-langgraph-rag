@@ -33,4 +33,7 @@ python3 -m pip install streamlit
 
 streamlit run main.py
 
+# Open another terminal activate virtual env and lets develop
+
+
 # deactivate
