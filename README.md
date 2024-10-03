@@ -29,11 +29,28 @@ ollama run llama3.1:70b # 70b
 (base) ➜  local-rag source .venv/bin/activate
 # win: \Scripts\activate
 
+```bash
 python3 -m pip install streamlit
 
 streamlit run main.py
 
+```
+
 # Open another terminal activate virtual env and lets develop
 
+<!--
+# deactivate -->
 
-# deactivate
+
+# to run the app on docker
+
+```bash
+cd app/backend
+docker compose up -d
+```
+
+## to delete the containers
+
+```bash
+docker compose down
+```
