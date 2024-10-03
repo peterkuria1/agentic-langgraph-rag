@@ -1,3 +1,9 @@
 streamlit
 openai==1.42.0
 numpy==2.0.1
+langchain-community
+langchain_huggingface
+langchain_qdrant
+
+python-dotenv==1.0.1
+
